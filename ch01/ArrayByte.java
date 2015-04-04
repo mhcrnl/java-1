@@ -17,9 +17,8 @@ class ArrayByte{
 		newArray[1] = 1;
 		newArray[2] = 2;
 		newArray[3] = 3;
-		System.out.println(newArray[0]);
-		System.out.println(newArray[1]);
-		System.out.println(newArray[2]);
-		System.out.println(newArray[3]);
+                for(int i = 0; i < newArray.length; ++i) {
+                        System.out.println(newArray[i]);
+                }
 	}
 }
