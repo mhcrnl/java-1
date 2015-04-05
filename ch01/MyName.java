@@ -5,7 +5,7 @@
 /**
  * MyNameクラスです。
  */
-class Myname {
+public class MyName {
         /**
          * mainメソッドです。
          *

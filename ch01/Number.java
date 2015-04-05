@@ -5,7 +5,7 @@
 /**
  * Numberクラスです。
  */
-class Number {
+public class Number {
         /**
          * Mainメソッドです。
          * 

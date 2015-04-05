@@ -5,7 +5,7 @@
 /**
  * ThreeDimensionArrayクラスです。
  */
-class ThreeDimensionArray{
+public class ThreeDimensionArray{
 	/**
 	 * mainメソッドです。
 	 *

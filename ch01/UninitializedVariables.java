@@ -7,7 +7,7 @@
 /**
  * UninitializedVariablesクラスです。
  */
-class UninitializedVariables {
+public class UninitializedVariables {
         /**
          * mainメソッドです。
          * 

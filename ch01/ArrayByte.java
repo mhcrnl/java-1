@@ -5,7 +5,7 @@
 /**
  * ArrayByteクラスです。
  */
-class ArrayByte{
+public class ArrayByte{
 	/**
 	 * mainメソッドです。
 	 *

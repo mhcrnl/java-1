@@ -5,7 +5,7 @@
 /**
  * IsVaridクラスです。
  */
-class IsVarid {
+public class IsVarid {
         /**
          * mainメソッドです。
          * 

@@ -5,7 +5,7 @@
 /**
  * Romeoクラスです。
  */
-class Romeo {
+public class Romeo {
         /**
          * mainメソッドです。
          *

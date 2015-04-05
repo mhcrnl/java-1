@@ -5,7 +5,7 @@
 /**
  * TwoDimensionArrayFloatクラスです。
  */
-class TwoDimensionArrayFloat {
+public class TwoDimensionArrayFloat {
 	/**
 	 * mainメソッドです。
 	 * 

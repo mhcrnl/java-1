@@ -5,7 +5,7 @@
 /**
  * ArrayDoubleクラスです。
  */
-class ArrayDouble {
+public class ArrayDouble {
 	/**
 	 * mainメソッドです。
 	 *
