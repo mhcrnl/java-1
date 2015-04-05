@@ -13,10 +13,10 @@ public class IntArray {
          */
         public static void main(String[] args) {
                 int array[] = new int[10];
-                for (int i = 0, j = -1; i < array.length; ++i, --j) {
+                for (int i = 0, j = -1, l = array.length; i < l; ++i, --j) {
                         array[i] = j;
                 }
-                for (int i = 0; i < array.length; ++i) {
+                for (int i = 0, l = array.length; i < l; ++i) {
                         System.out.println(array[i]);
                 }
         }
