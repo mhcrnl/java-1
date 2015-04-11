@@ -7,7 +7,7 @@
  */
 class Sphere {
     /**
-     * 半径
+     * 球体の半径
      */
     double radius;
 
