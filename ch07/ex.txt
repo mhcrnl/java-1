@@ -1,0 +1,53 @@
+理解度チェック
+1. 
+スーパークラスと同名の変数がサブクラスに存在するために、
+super.変数名としないとスーパークラスの変数にアクセスできない状態のこと。
+
+2. public, private, final, abstract
+3. public, private, final, static, volatile, transient
+4. public, private, final, abstract
+5. public, private, final, static, abstract, syncronyzed
+6. オブジェクトを参照する変数を宣言し、インスタンス化する。
+
+練習問題7.1
+1. 定数とメソッドをひとまとめにしたもの。
+2. 同一パッケージから参照可能
+3. 他のすべてのクラスから参照可能
+4. public static final
+5. public abstract
+
+練習問題7.2
+1. D1クラスはインターフェイスBを実装していないため、b = new D1();によって参照できない。
+
+練習問題7.3
+1. クラスとインターフェイスをまとめたもの
+2. 既定パッケージ
+3. 
+a/b/c/d
+$ javac a/b/c/d/X.java
+$ java a.b.c.d.X
+
+練習問題7.4
+1. set CLASSPATH=.;c:\lab8;c:\freshman\chem101
+
+練習問題7.5
+1. 
+import 完全修飾名
+import パッケージ名.*
+2. パッケージrを取り込んでおらず、Rクラスを参照できないため。
+
+練習問題7.6
+1. 他のすべてのクラスから参照可能
+2. 同じパッケージ、または他のパッケージのサブクラスから参照可能
+3. 同じクラスのみ参照可能
+4. アクセス権が無い
+
+理解度チェック
+1. アクセス修飾子 interface インターフェイス名 {}
+2. 変数名 instanceof オブジェクト名で、
+変数の参照するオブジェクトがオブジェクト名のオブジェクトに属するかを調べる。
+属していればtrueを、そうでなければfalseを返す。
+3. package パッケージ名 とすることで、クラスとインターフェイスをパッケージに格納する。
+4. set CLASSPATH=場所 とすることで、.classファイルを検索する場所を指定する。
+5. import パッケージ名 とすることで、完全修飾名よりも短い記述で別のパッケージにアクセスすることがきできる。
+6. java.lang
