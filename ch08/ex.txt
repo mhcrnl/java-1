@@ -1,0 +1,75 @@
+理解度チェック
+1. 
+2. コンパイルエラーが起こる。
+3. メソッドの型が違う場合はコンパイルエラーが起こる。
+5. 使える
+6. 
+set CLASSPATH=.;c: \library\myJava
+\a\b\c\d\D.class
+c: \library\myJava\e\f\F.class
+
+練習問題8.2
+1. 
+Before a
+Before b
+Before c
+Before d
+Before cast
+d: ClassCastExeption
+Before Division
+d: finally
+c: finally
+b: finally
+a: ArithmeticExeption
+a: finally
+After a
+main: finally
+
+2. コンパイル不可能（ArithmeticExeptionはExeptionクラスのサブクラスであるため。）
+
+練習問題8.3
+2.
+Before a
+Before b
+Before c
+Before d
+d: finally
+c: finally
+b: NumberFormatException
+b: finally
+After b
+a: finally
+After a
+main: finally
+
+練習問題8.4
+1. ErrorとException
+
+練習問題8.4
+1. ErrorとException
+2. IOException
+3. NullPointerException
+
+練習問題8.5
+1. 必要なし（RuntimeExceptionだから）
+2. 必要あり
+3. 必要なし
+
+練習問題8.6
+2. できる
+
+理解度チェック
+1. プログラム中でエラーが起こった際に呼び出されるもの。
+2. 
+0除算
+空の要素の参照
+引数の型の不一致
+キャスト型の不一致
+パースエラー
+3. java.lang.Throwable
+4. IOException
+5. AssertionErrorが発生する
+
+総合理解度チェック
+1. ArithmeticExceptionが生じる。
+
