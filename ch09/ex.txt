@@ -1,0 +1,16 @@
+理解度チェック
+1. 
+try
+catch
+finally
+throw
+throws
+2. 例外の起こったcatchブロックから例外の型が一致するものを検索する。
+一致しなければスタックに積まれた次のcatchブロックを検索する。
+3. される。
+4.
+Before integer division-by-zero
+Inner catch block
+Inner finally block
+Outer catch block
+Outer finally block
