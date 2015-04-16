@@ -14,3 +14,25 @@ Inner catch block
 Inner finally block
 Outer catch block
 Outer finally block
+
+練習問題9.4
+1. 起こらない。
+
+練習問題9.10
+1.
+Calling wait
+Calling notifyAll
+
+理解度チェック
+1. 処理の一連のまとまりのこと？
+2. Threadクラスを継承する・Runnableインターフェイスを実装する
+3. 
+2つ以上のスレッドがお互いのロックが解除されるのを待っている状態。
+synchronizedメソッドを用いることで生じる。
+4. notify()メソッドやnotifyAll()メソッドを用いることで、
+待機中のスレッドに対して通知を行うことができる。
+5. 
+プログラム実行から2000ミリ秒の間は"Low priority thread:"の内容が出力される。
+その後は"Normal priority thread"が20回出力され、最後に残りの"Low priority thread:"の内容が出力される。
+
+
