@@ -35,4 +35,5 @@ synchronizedメソッドを用いることで生じる。
 プログラム実行から2000ミリ秒の間は"Low priority thread:"の内容が出力される。
 その後は"Normal priority thread"が20回出力され、最後に残りの"Low priority thread:"の内容が出力される。
 
-
+総合理解度チェック
+1. メソッド（ブロック）の処理が終了し、ロックが解除される。デッドロック回避のため？
