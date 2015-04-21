@@ -14,17 +14,15 @@ public class RandomAverage {
          */
         public static void main(String[] args) {
                 Random r = new Random();
-                int number;
-                int sum = 0;
-                if (args.length == 0) {
-                        number = 100;
-                } else {
-                        number = Integer.parseInt(args[0]);
+                int count = 100;
+                double sum = 0;
+                if (args.length > 0) {
+                        count = Integer.parseInt(args[0]);
                 }
 
-                for(int i = 0; i < number; ++i) {
-                        System.out.print(r.nextInt() + " ");
+                for(int i = 0; i < count; ++i) {
+                        sum += r.nextGaussian();
                 }
-                System.out.println(sum / number);
+                System.out.println(sum / count);
         }
 }
