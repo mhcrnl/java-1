@@ -42,38 +42,14 @@ final class Person {
 		this.fax = fax;
 		this.mail = mail;
 	}
-
-	/**
-	 * nameのゲッターです。
-	 * @return 氏名
-	 */
-	public String getName() {
-		return this.name;
-	}
-
-	/**
-	 * telのゲッターです。
-	 * @return 電話番号
-	 */
-	public String getTel() {
-		return this.tel;
-	}
-
-	/**
-	 * faxのゲッターです。
-	 * @return FAX番号
-	 */
-	public String getFax() {
-		return this.fax;
-	}
-
-	/**
-	 * mailのゲッターです
-	 * @return メールアドレス
-	 */
-	public String getMail() {
-		return this.mail;
-	}
+        
+        /**
+         * 文字列表現を返します。
+         * return 文字列表現
+         */
+        public String toString() {
+                return "name: " + this.name + ", tel: " + this.tel + ", fax: " + this.fax + ", mail: " + this.mail;
+        }
 }
 
 /**
@@ -95,10 +71,7 @@ public class PersonHash {
 		while(e.hasMoreElements()) {
 			String key = e.nextElement();
 			System.out.println("key: " + key);
-			System.out.println("Name: " + hash.get(key).getName());
-			System.out.println("Tel: " + hash.get(key).getTel());
-			System.out.println("Fax: " + hash.get(key).getFax());
-			System.out.println("Mail: " + hash.get(key).getMail());
+			System.out.println(hash.get(key));
 			System.out.println("-------------------------");
 		}
 	}
